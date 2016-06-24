@@ -1,0 +1,24 @@
+{
+  "name": "aparaturid/asn",
+  "type": "library",
+  "description": "AparaturID ASN",
+  "keywords": ["asn","aparatur"],
+  "homepage": "https://github.com/AparaturID/ASN",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Herdi Hakim",
+      "email": "herdi.haki@gmail.com",
+      "homepage": "https://github.com/AparaturID"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aparatur\\ASN": "src/"
+    }
+  }
+}
